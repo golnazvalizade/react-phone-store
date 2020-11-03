@@ -1,0 +1,50 @@
+
+{
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "es6": true,
+      "commonjs": true,
+      "jest": true
+    },
+    "globals": {
+      "process": true
+    },
+    "extends": [
+      "airbnb",
+      "airbnb/hooks",
+      "plugin:prettier/recommended",
+      "prettier/react"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 9,
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "sourceType": "module"
+    },
+    "plugins": ["react", "prettier"],
+    "rules": {
+      "react/prop-types": 0,
+      "no-console": 0,
+      "react/jsx-filename-extension": 0,
+      "react/prefer-stateless-function": 0,
+      "react/react-in-jsx-scope": "off",
+   "react/state-in-constructor":0,
+   "react/no-unused-state":0,
+   "jsx-a11y/click-events-have-key-events": 0,
+   "jsx-a11y/no-noninteractive-element-interactions":0,
+   "import/no-unresolved":0,
+    "no-unused-vars":"off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/label-has-for":"off",
+    "no-return-assign":"off",
+    "no-param-reassign":"off",
+     "no-shadow":"off","radix":"off",
+     "consistent-return":"off",
+     "import/prefer-default-export": "off"
+
+    }
+  }
+  
+  
